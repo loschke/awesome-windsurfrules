@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://patrickjs.com" target="_blank">
-    <img src="/cursor-ai-logo.png" alt="Awesome WindsurfRules" />
+    <img src="/windsurf-logo.png" alt="Awesome WindsurfRules" />
   </a>
 </p>
 
