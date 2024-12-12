@@ -8,7 +8,7 @@
 
 A curated list of awesome .windsurfrules files for enhancing your Windsurf AI experience.
 
-[Cursor AI](https://cursor.sh/) is an AI-powered code editor. `.windsurfrules` files define custom rules for Cursor AI to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
+[Windsurf](https://codeium.com/windsurf) is an AI-powered code editor. `.windsurfrules` files define custom rules for Windsurf to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
 
 ## Why .windsurfrules?
 
