@@ -2,9 +2,9 @@
 
 > This project is a fork of [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules), specifically adapted for Windsurf. The main difference is the support for global rules in Windsurf, which is reflected in the modified directory structure. While workspace rules are forked from the original project, the global rules feature is unique to this implementation.
 
-A curated list of awesome `global_rules` and `workspace_rules` files for enhancing your Windsurf experience.
+A curated list of awesome `global_rules` and `.windsurfrules` files for enhancing your Windsurf experience.
 
-[Windsurf](https://codeium.com/windsurf) is an AI-powered code editor. `global_rules` or `workspace_rules` files define custom rules for Windsurf to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
+[Windsurf](https://codeium.com/windsurf) is an AI-powered code editor. `global_rules` or `.windsurfrules` files define custom rules for Windsurf to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
 
 ## Why Use Rules in Windsurf?
 
@@ -50,15 +50,15 @@ Global rules are a unique feature in Windsurf that apply across all projects. Th
 ### Workspace Rules
 Workspace rules are specific to each project and are organized in the following structure:
 
-- [**./rules/workspace_rules/**](./rules/workspace_rules) - Root directory for workspace rules
-  - [**lorem/**](./rules/workspace_rules/#)
+- [**./rules/.windsurfrules/**](./rules/.windsurfrules) - Root directory for workspace rules
+  - [**lorem/**](./rules/.windsurfrules/#)
 
 ## Directories
 
 ## How to Use
 1. Install [Windsurf](https://codeium.com/windsurf) if you haven't already.
-2. Browse the rules above to find a `global_rules` or `workspace_rules` file that suits your needs.
-3. Copy the chosen `global_rules` or `workspace_rules` file to your project's root directory or Windsurf's `Global Rules` file.
+2. Browse the rules above to find a `global_rules` or `.windsurfrules` file that suits your needs.
+3. Copy the chosen `global_rules` or `.windsurfrules` file to your project's root directory or Windsurf's `Global Rules` file.
 4. Customize the rules as needed for your specific project requirements.
 
 
@@ -67,7 +67,7 @@ Workspace rules are specific to each project and are organized in the following 
 Contributions are welcome! If you have a great `.windsurfrules` file to share:
 
 1. Fork this repository.
-2. Create a new folder in the `global_rules` or `workspace_rules` directory. The folder name should follow this pattern:
+2. Create a new folder in the `global_rules` or `.windsurfrules` directory. The folder name should follow this pattern:
    `technology-focus-windsurfrules-prompt-file`
    For example: `react-typescript-windsurfrules-prompt-file`
 3. Add your `global_rules.md` or `.windsurfrules` file to the new folder.
