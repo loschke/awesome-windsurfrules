@@ -1,4 +1,4 @@
-Write a commit message for every change you make, and always format it in a code block for clarity. Use the following guidelines for consistent and descriptive commit messages:
+Write a short commit message for every change you make, and always format it in a code block for clarity. Use the following guidelines for consistent and descriptive commit messages:
 
 prefix: short description
 
