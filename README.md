@@ -29,7 +29,7 @@ By creating a `.windsurfrules` file in your project's root directory, you can le
 ### Global Rules
 Global rules are a unique feature in Windsurf that apply across all projects. They are organized in the following structure:
 
-- **global_rules/** - Root directory for global rules
+- [**./rules/global_rules/**](./rules/global_rules) - Root directory for global rules
   - [**language/**](./rules/global_rules/global-en-language)
     - English-only responses
     - Localization preferences
@@ -40,7 +40,7 @@ Global rules are a unique feature in Windsurf that apply across all projects. Th
 ### Workspace Rules
 Workspace rules are specific to each project and are organized in the following structure:
 
-- **workspace_rules/** - Root directory for workspace rules
+- [**./rules/workspace_rules/**](./rules/workspace_rules) - Root directory for workspace rules
   - [**lorem/**](./rules/workspace_rules/#)
 
 ## Directories
