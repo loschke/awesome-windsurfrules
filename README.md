@@ -57,8 +57,8 @@ Workspace rules are specific to each project and are organized in the following 
 
 ## How to Use
 1. Install [Windsurf](https://codeium.com/windsurf) if you haven't already.
-2. Browse the rules above to find a `.windsurfrules` file that suits your needs.
-3. Copy the chosen `.windsurfrules` file to your project's root directory.
+2. Browse the rules above to find a `global_rules` or `workspace_rules` file that suits your needs.
+3. Copy the chosen `global_rules` or `workspace_rules` file to your project's root directory or Windsurf's `Global Rules` file.
 4. Customize the rules as needed for your specific project requirements.
 
 
