@@ -12,7 +12,7 @@ A curated list of awesome .windsurfrules files for enhancing your Windsurf AI ex
 
 ## Why .windsurfrules?
 
-`.windsurfrules` is a powerful feature in Cursor AI that allows developers to define project-specific instructions for the AI. Here's why you might want to use it:
+`.windsurfrules` is a powerful feature in Windsurf AI that allows developers to define project-specific instructions for the AI. Here's why you might want to use it:
 
 1. **Customized AI Behavior**: `.windsurfrules` files help tailor the AI's responses to your project's specific needs, ensuring more relevant and accurate code suggestions.
 
@@ -26,12 +26,12 @@ A curated list of awesome .windsurfrules files for enhancing your Windsurf AI ex
 
 6. **Project-Specific Knowledge**: You can include information about your project's structure, dependencies, or unique requirements, helping the AI to provide more accurate and relevant suggestions.
 
-By creating a `.windsurfrules` file in your project's root directory, you can leverage these benefits and enhance your coding experience with Cursor AI.
+By creating a `.windsurfrules` file in your project's root directory, you can leverage these benefits and enhance your coding experience with Windsurf AI.
 
 ## Contents
 
-- [Awesome CursorRules ](#awesome-cursorrules-)
-  - [Why .cursorrules?](#why-cursorrules)
+- [Awesome WindsurfRules ](#awesome-windsurfrules-)
+  - [Why .windsurfrules?](#why-windsurfrules)
   - [Contents](#contents)
   - [Rules](#rules)
     - [Frontend Frameworks and Libraries](#frontend-frameworks-and-libraries)
@@ -198,12 +198,10 @@ By creating a `.windsurfrules` file in your project's root directory, you can le
 - [Web App Optimization](./rules/web-app-optimization-cursorrules-prompt-file/.cursorrules)
 
 ## Directories
-- [CursorList](https://cursorlist.com)
-- [CursorDirectory](https://cursor.directory/)
 
 ## How to Use
 ### Method One
-1. Install [Cursor AI](https://cursor.sh/) if you haven't already.
+1. Install [Windsurf](https://) if you haven't already.
 2. Browse the rules above to find a `.cursorrules` file that suits your needs.
 3. Copy the chosen `.cursorrules` file to your project's root directory.
 4. Customize the rules as needed for your specific project requirements.
