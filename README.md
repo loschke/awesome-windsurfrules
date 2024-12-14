@@ -2,27 +2,37 @@
 
 > This project is a fork of [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules), specifically adapted for Windsurf. The main difference is the support for global rules in Windsurf, which is reflected in the modified directory structure. While workspace rules are forked from the original project, the global rules feature is unique to this implementation.
 
-A curated list of awesome .windsurfrules files for enhancing your Windsurf experience.
+A curated list of awesome `global_rules` and `workspace_rules` files for enhancing your Windsurf experience.
 
-[Windsurf](https://codeium.com/windsurf) is an AI-powered code editor. `.windsurfrules` files define custom rules for Windsurf to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
+[Windsurf](https://codeium.com/windsurf) is an AI-powered code editor. `global_rules` or `workspace_rules` files define custom rules for Windsurf to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
 
-## Why .windsurfrules?
+## Why Use Rules in Windsurf?
 
-`.windsurfrules` is a powerful feature in Windsurf that allows developers to define project-specific instructions for the AI. Here's why you might want to use it:
+Windsurf offers two powerful types of rules - global rules that apply across all projects, and workspace rules for project-specific customization.
 
-1. **Customized AI Behavior**: `.windsurfrules` files help tailor the AI's responses to your project's specific needs, ensuring more relevant and accurate code suggestions.
+### Benefits of Global Rules
 
-2. **Consistency**: By defining coding standards and best practices in your `.windsurfrules` file, you can ensure that the AI generates code that aligns with your project's style guidelines.
+1. **Consistent Communication**: Global language rules ensure all interactions follow the same communication standards across projects.
 
-3. **Context Awareness**: You can provide the AI with important context about your project, such as commonly used methods, architectural decisions, or specific libraries, leading to more informed code generation.
+2. **Standardized Practices**: Define organization-wide conventions for commit messages, code style, and documentation that apply uniformly.
 
-4. **Improved Productivity**: With well-defined rules, the AI can generate code that requires less manual editing, speeding up your development process.
+3. **Security Baseline**: Establish common security practices and data handling rules that protect all projects.
 
-5. **Team Alignment**: For team projects, a shared `.windsurfrules` file ensures that all team members receive consistent AI assistance, promoting cohesion in coding practices.
+4. **Performance Standards**: Set universal performance optimization guidelines that benefit every project.
 
-6. **Project-Specific Knowledge**: You can include information about your project's structure, dependencies, or unique requirements, helping the AI to provide more accurate and relevant suggestions.
+### Benefits of Workspace Rules
 
-By creating a `.windsurfrules` file in your project's root directory, you can leverage these benefits and enhance your coding experience with Windsurf AI.
+1. **Project-Specific Customization**: Tailor the AI's behavior to your specific project's needs and requirements.
+
+2. **Framework Alignment**: Ensure generated code follows the conventions of your chosen framework or technology stack.
+
+3. **Context Awareness**: Provide project-specific context about architecture, libraries, and common patterns.
+
+4. **Team Collaboration**: Share project-specific guidelines that keep the entire team aligned with local conventions.
+
+5. **Dependency Management**: Define project-specific dependencies and version requirements.
+
+By combining both global and workspace rules, you create a comprehensive set of guidelines that ensure consistency across your organization while maintaining the flexibility to address project-specific needs.
 
 ## Content
 
