@@ -29,13 +29,19 @@ By creating a `.windsurfrules` file in your project's root directory, you can le
 ### Global Rules
 Global rules are a unique feature in Windsurf that apply across all projects. They are organized in the following structure:
 
-- **1-global_rules/** - Root directory for global rules
-  - [**language/**](./rules/global_rules/global-en-language) - Language and communication rules
+- **global_rules/** - Root directory for global rules
+  - [**language/**](./rules/global_rules/global-en-language)
     - English-only responses
     - Localization preferences
-  - [**commit-message/**](./rules/global_rules/global-commit-message) - Commit message formatting rules
+  - [**commit-message/**](./rules/global_rules/global-commit-message)
     - Standard prefixes (feat, fix, docs, etc.)
     - Message structure guidelines
+
+### Workspace Rules
+Workspace rules are specific to each project and are organized in the following structure:
+
+- **workspace_rules/** - Root directory for workspace rules
+  - [**lorem/**](./rules/workspace_rules/#)
 
 ## Directories
 
