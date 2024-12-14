@@ -2,13 +2,13 @@
 
 > This project is a fork of [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules), specifically adapted for Windsurf. The main difference is the support for global rules in Windsurf, which is reflected in the modified directory structure. While workspace rules are forked from the original project, the global rules feature is unique to this implementation.
 
-A curated list of awesome .windsurfrules files for enhancing your Windsurf AI experience.
+A curated list of awesome .windsurfrules files for enhancing your Windsurf experience.
 
 [Windsurf](https://codeium.com/windsurf) is an AI-powered code editor. `.windsurfrules` files define custom rules for Windsurf to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
 
 ## Why .windsurfrules?
 
-`.windsurfrules` is a powerful feature in Windsurf AI that allows developers to define project-specific instructions for the AI. Here's why you might want to use it:
+`.windsurfrules` is a powerful feature in Windsurf that allows developers to define project-specific instructions for the AI. Here's why you might want to use it:
 
 1. **Customized AI Behavior**: `.windsurfrules` files help tailor the AI's responses to your project's specific needs, ensuring more relevant and accurate code suggestions.
 
@@ -23,6 +23,31 @@ A curated list of awesome .windsurfrules files for enhancing your Windsurf AI ex
 6. **Project-Specific Knowledge**: You can include information about your project's structure, dependencies, or unique requirements, helping the AI to provide more accurate and relevant suggestions.
 
 By creating a `.windsurfrules` file in your project's root directory, you can leverage these benefits and enhance your coding experience with Windsurf AI.
+
+## Content
+
+### Global Rules
+Global rules are a unique feature in Windsurf that apply across all projects. They are organized in the following structure:
+
+- **1-global_rules/** - Root directory for global rules
+  - **language/** - Language and communication rules
+    - English-only responses
+    - Localization preferences
+  - **commit-message/** - Commit message formatting rules
+    - Standard prefixes (feat, fix, docs, etc.)
+    - Message structure guidelines
+  - **code-style/** - Universal code styling rules
+    - Formatting conventions
+    - Naming conventions
+  - **documentation/** - Documentation standards
+    - Comment formats
+    - Documentation requirements
+  - **security/** - Security guidelines
+    - Code security practices
+    - Data handling rules
+  - **performance/** - Performance optimization rules
+    - Resource usage guidelines
+    - Optimization practices
 
 ## Directories
 
