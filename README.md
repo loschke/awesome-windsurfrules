@@ -51,16 +51,16 @@ Global rules are a unique feature in Windsurf that apply across all projects. Th
 Contributions are welcome! If you have a great `.windsurfrules` file to share:
 
 1. Fork this repository.
-2. Create a new folder in the `rules` directory. The folder name should follow this pattern:
+2. Create a new folder in the `global_rules` or `workspace_rules` directory. The folder name should follow this pattern:
    `technology-focus-windsurfrules-prompt-file`
    For example: `react-typescript-windsurfrules-prompt-file`
-3. Add your `.windsurfrules` file to the new folder.
+3. Add your `global_rules.md` or `.windsurfrules` file to the new folder.
 4. Optionally, include a README.md in the folder to provide credit and a brief description.
 5. Update the main README.md file, adding your contribution to the appropriate category.
 6. Ensure your contribution follows the guidelines in the [`.windsurfrules`](./.windsurfrules) file at the root of this repository.
 7. Submit a pull request.
 
-Please ensure your contribution is original or properly credited if based on existing work. Refer to the `.windsurfrules` file in the root of this repository for detailed guidelines on formatting, naming conventions, and best practices for contributions.
+Please ensure your contribution is original or properly credited if based on existing work. Refer to the `global_rules.md` or `.windsurfrules` file in the root of this repository for detailed guidelines on formatting, naming conventions, and best practices for contributions.
 
 ---
 
