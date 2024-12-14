@@ -2,12 +2,6 @@
 
 > This project is a fork of [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules), specifically adapted for Windsurf. The main difference is the support for global rules in Windsurf, which is reflected in the modified directory structure. While workspace rules are forked from the original project, the global rules feature is unique to this implementation.
 
-<p align="center">
-  <a href="https://patrickjs.com" target="_blank">
-    <img src="/windsurf-logo.png" alt="Awesome WindsurfRules" />
-  </a>
-</p>
-
 A curated list of awesome .windsurfrules files for enhancing your Windsurf AI experience.
 
 [Windsurf](https://codeium.com/windsurf) is an AI-powered code editor. `.windsurfrules` files define custom rules for Windsurf to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences.
