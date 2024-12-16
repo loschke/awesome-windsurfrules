@@ -40,12 +40,15 @@ By combining both global and workspace rules, you create a comprehensive set of 
 Global rules are a unique feature in Windsurf that apply across all projects. They are organized in the following structure:
 
 - [**./rules/global_rules/**](./rules/global_rules) - Root directory for global rules
-  - [**language/**](./rules/global_rules/global-en-language)
+  - [**global-en-language-global_rules-prompt-file/**](./rules/global_rules/global-en-language-global_rules-prompt-file)
     - English-only responses
     - Localization preferences
-  - [**commit-message/**](./rules/global_rules/global-commit-message)
+  - [**commit-message-short-global_rules-prompt-file/**](./rules/global_rules/commit-message-short-global_rules-prompt-file)
     - Standard prefixes (feat, fix, docs, etc.)
-    - Message structure guidelines
+    - Short commit Message structure guidelines
+  - [**commit-message-long-global_rules-prompt-file/**](./rules/global_rules/commit-message-long-global_rules-prompt-file)
+    - Standard prefixes (feat, fix, docs, etc.)
+    - Long commit Message structure guidelines
 
 ### Workspace Rules
 Workspace rules are specific to each project and are organized in the following structure:
