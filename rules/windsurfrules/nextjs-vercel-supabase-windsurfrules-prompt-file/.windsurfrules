@@ -1,0 +1,82 @@
+# Project Name and Overview
+
+
+
+## Core functionality
+### Feature 1
+- 
+- 
+- 
+
+
+### Feature 2
+- 
+- 
+- 
+
+
+### Feature 3
+- 
+- 
+- 
+
+
+## Code and Style Guidelines
+- Use ESLint with Next.js, TypeScript, and Prettier rules.
+- Enable `strict: true` in TypeScript.
+- Integrate Prettier with ESLint and Husky pre-commit hooks.
+- Use `eslint-plugin-react-hooks` and `eslint-plugin-import`.
+- Configure absolute imports via `baseUrl` in `tsconfig.json`.
+
+## Tech Stack
+- Framework: Next.js 15 (App Router, Server Components).
+- Deployment: Vercel.
+- Database: Supabase (PostgreSQL, Auth).
+- Styling: Shadcn/UI with TailwindCSS.
+- Language: TypeScript.
+
+## Naming Conventions
+- PascalCase for components, camelCase for variables and hooks.
+- kebab-case for files and folders.
+- RESTful naming for API routes (e.g., `/api/users`).
+
+## State Management
+- Use React Context and Next.js Server Actions.
+- Minimize client-side state; consider Zustand or Jotai.
+
+## UI and Styling
+- Use Shadcn/UI components with TailwindCSS.
+- Minimize custom CSS; follow responsive design with Tailwind breakpoints.
+
+## Performance Optimization
+- Use React Server Components and lazy loading (`next/dynamic`).
+- Optimize images with Next.js Image and `priority`.
+- Use Edge Functions and Incremental Static Regeneration (ISR).
+- Monitor performance with Vercel Analytics and Lighthouse.
+
+## Error Handling
+- Use custom error pages (`pages/404.tsx`, `pages/500.tsx`).
+- Integrate Sentry or Logflare for error logging.
+
+## Testing
+- Write unit tests for components and utilities.
+- Implement E2E tests for critical flows.
+- Monitor memory usage and performance.
+
+## Security
+- Enforce Content Security Policy.
+- Sanitize user inputs.
+- Handle sensitive data securely.
+
+## Documentation
+- Maintain README with setup and API details.
+- Document `manifest.json` and complex logic.
+- Use comments for permissions and critical code.
+
+## Development Workflow
+- Use version control and code reviews.
+- Follow semantic versioning and maintain changelog.
+- Test across multiple environments.
+
+
+
