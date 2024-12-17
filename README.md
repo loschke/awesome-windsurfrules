@@ -53,8 +53,11 @@ Global rules are a unique feature in Windsurf that apply across all projects. Th
 ### Workspace Rules
 Workspace rules are specific to each project and are organized in the following structure:
 
-- [**./rules/.windsurfrules/**](./rules/.windsurfrules) - Root directory for workspace rules
-  - [**lorem/**](./rules/.windsurfrules/#)
+- [**./rules/windsurfrules/**](./rules/windsurfrules) - Root directory for workspace rules
+  - [**./rules/windsurfrules/blueprint-windsurfrules-prompt-file**](./rules/windsurfrules/blueprint-windsurfrules-prompt-file)
+    - Blueprint
+  - [**./rules/windsurfrules/nextjs-vercel-supabase-windsurfrules-prompt-file**](./rules/windsurfrules/nextjs-vercel-supabase-windsurfrules-prompt-file)
+    - Next JS, Vercel, Supabase using Blueprint
 
 ## Directories
 
