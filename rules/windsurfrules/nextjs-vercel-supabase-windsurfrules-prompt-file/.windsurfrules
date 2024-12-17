@@ -28,6 +28,9 @@
 - Use `eslint-plugin-react-hooks` and `eslint-plugin-import`.
 - Configure absolute imports via `baseUrl` in `tsconfig.json`.
 
+## Architecture
+
+
 ## Tech Stack
 - Framework: Next.js 15 (App Router, Server Components).
 - Deployment: Vercel.
